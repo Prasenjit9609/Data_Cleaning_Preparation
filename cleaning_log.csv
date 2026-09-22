@@ -1,0 +1,7 @@
+﻿Issue,Field,Action,Result
+Missing values,Multiple columns,Imputed numeric fields with median;filled Description from StockCode lookup; filled Country as Unknown,Resolved missing values
+Duplicate records,All columns,Removed exact duplicate rows after normalization,18 duplicate rows removed
+Incorrect data types,"Quantity, UnitPrice, CustomerID, InvoiceNo, StockCode",Converted IDs/numerics to consistent types; repaired numeric text,Consistent schema
+Inconsistent country values,Country,Mapped UK/U.K./uk/United kingdom etc. to United Kingdom,Standardized country names
+Inconsistent descriptions,Description,"Trimmed whitespace, collapsed repeated spaces, standardized case",Standardized product descriptions
+Inconsistent dates,InvoiceDate,Parsed mixed date formats and stored ISO datetime,Standardized date format

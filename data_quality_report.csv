@@ -1,0 +1,9 @@
+﻿Column,Missing_Before,Missing_After,Final_Data_Type
+InvoiceNo,0,0,string
+StockCode,0,0,string
+Description,45,0,string
+Quantity,22,0,int64
+InvoiceDate,15,0,datetime64[ns]
+UnitPrice,15,0,float64
+CustomerID,55,0,int64
+Country,30,0,string
