@@ -1,0 +1,8 @@
+Insight
+"1. The dataset contains 1,978 cleaned transaction lines covering 721 unique invoices, 41 unique products, 1,643 customers and 16 countries."
+"2. United Kingdom has the highest total sales in this sample at 364,295.96, representing 70.4% of total sales."
+"3. The highest-sales month in the cleaned sample is 2011-05, with total sales of 50,078.08."
+"4. The product with the highest total sales in this sample is REGENCY CAKESTAND 3 TIER (StockCode 22423), with sales of 53,937.90."
+"5. Tuesday has the highest total sales among weekdays represented in the sample, at 95,014.69."
+6. There are 62 transaction lines with negative quantity. These are retained as a separate anomaly/return indicator rather than automatically deleted.
+7. The quantity IQR rule identifies 175 rows outside the 1.5×IQR bounds. These are potential high-volume/low-volume anomalies and should be investigated rather than automatically removed.

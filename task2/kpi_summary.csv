@@ -1,0 +1,11 @@
+KPI,Value
+Records analyzed,1978.0
+Unique invoices,721.0
+Unique products,41.0
+Unique customers,1643.0
+Countries represented,16.0
+Total quantity,120126.0
+Total sales,517718.0
+Average transaction line sales,261.7381193124368
+Median unit price,3.39
+Return/cancellation lines (negative quantity),62.0
